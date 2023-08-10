@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFCCCC"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the button"
+        android:textColor="@color/black"
+        android:textSize="32dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/minusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="minus"
+        android:layout_margin="32dp"
+        android:background="#6699CC"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/plusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plus"
+        android:background="#CC0033"
+        android:layout_margin="32dp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

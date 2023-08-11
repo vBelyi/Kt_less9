@@ -10,7 +10,7 @@ class MainActivity: Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_layout)
-        var counter = 5
+        var counter = 3
         val buttonPlus:Button = findViewById(R.id.plusButton)
         val buttonMinus:Button = findViewById(R.id.minusButton)
         buttonPlus.setOnClickListener {
